@@ -18,6 +18,10 @@ h2 {
     margin: 20px 0;
 }
 
+.wow {
+    visibility: hidden;
+}
+
 /*#region Language Box */
 
 .language-box .language-flag {
@@ -127,7 +131,7 @@ h2 {
 }
 
 .main-page .main-menu a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .main-page .main-menu .menu-section {
@@ -157,6 +161,7 @@ h2 {
 /*#endregion */
 
 /*#region Appetizers Section */
+
 .menu-list .menu-list-title {
     padding: 20px 0;
 }
@@ -189,7 +194,7 @@ h2 {
     font-weight: bold;
     cursor: pointer;
     transition: 0.5s;
-    display:inline-block;
+    display: inline-block;
 }
 
 .menu-list .dish-details h4:hover {
@@ -204,6 +209,7 @@ h2 {
     font-size: 13px;
     font-style: italic;
 }
+
 /*#endregion*/
 
 /*#region Dish Composition */

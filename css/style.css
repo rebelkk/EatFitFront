@@ -76,7 +76,9 @@ body {
 /*#endregion INTRO */
 
 /*#region Main Page*/
+
 /*#region Page Header */
+
 .main-page header {
     background-color: black;
     padding: 20px;
@@ -96,23 +98,30 @@ body {
     top: calc(50% - 16px);
     right: 50px;
 }
+
 /*#endregion*/
 
-.main-menu {
-    display: none;
-}
 /*#region Main Menu */
+
 .main-page .main-menu {
     background-color: #ccc;
     padding: 10px 0;
 }
 
+.main-page .main-menu a {
+    display: block;
+    color: #000;
+}
+
+.main-page .main-menu a:hover {
+    text-decoration: underline;
+}
+
 .main-page .main-menu .menu-section {
     background-color: white;
-    /* border: 1px solid #333; */
     padding: 25px;
     margin: 20px 0;
-    cursor:pointer;
+    cursor: pointer;
     transition: 0.5s;
 }
 
@@ -121,14 +130,9 @@ body {
     transform: scale(1.1);
 }
 
-.main-page .main-menu .menu-section .menu-section-img {
-    background-color: red;
-}
-
 .main-page .main-menu .menu-section .menu-section-img img {
     width: 100%;
     height: auto;
-    /* background-color: red; */
 }
 
 .main-page .main-menu .menu-section h4 {
@@ -140,6 +144,7 @@ body {
 /*#endregion */
 
 /*#region Footer*/
+
 .main-page footer {
     padding: 20px;
     background-color: #000;
@@ -150,5 +155,7 @@ body {
     color: white;
     margin: 0;
 }
+
 /*#endregion */
+
 /*#endregion */

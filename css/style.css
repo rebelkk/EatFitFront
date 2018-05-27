@@ -5,9 +5,20 @@
 body {
     margin: 0;
     padding: 0;
-    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Montserrat', sans-serif;
+    background-color: #ccc;
 }
+
+h2 {
+    text-align: center;
+    font-family: 'Allura', cursive;
+    margin: 0;
+    font-weight: bold;
+    font-size: 46px;
+    margin: 20px 0;
+}
+
+/*#region Language Box */
 
 .language-box .language-flag {
     display: inline-block;
@@ -24,6 +35,8 @@ body {
 .language-box .language-flag img:hover {
     opacity: 0.8;
 }
+
+/*#endregion*/
 
 /*#region INTRO */
 
@@ -142,6 +155,64 @@ body {
 }
 
 /*#endregion */
+
+/*#region Appetizers Section */
+.menu-list .menu-list-title {
+    padding: 20px 0;
+}
+
+.menu-list .menu-list-container {
+    background-color: white;
+    padding: 30px;
+}
+
+.menu-list .menu-list-container h3 {
+    font-family: 'Allura', cursive;
+    line-height: 1em;
+    font-size: 44px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.menu-list .menu-list-container .price::before {
+    content: ' - ';
+}
+
+.menu-list .dish-details {
+    margin: 10px;
+}
+
+.menu-list .dish-details h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    display:inline-block;
+}
+
+.menu-list .dish-details h4:hover {
+    text-decoration: underline;
+}
+
+.menu-list .dish-details .ingredients {
+    margin: 0;
+}
+
+.menu-list .dish-details .allergens {
+    font-size: 13px;
+    font-style: italic;
+}
+/*#endregion*/
+
+/*#region Dish Composition */
+
+.dish-composition {
+    display: none;
+}
+
+/*#endregion*/
 
 /*#region Footer*/
 

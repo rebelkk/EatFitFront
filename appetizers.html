@@ -7,11 +7,15 @@
     <link href="https://fonts.googleapis.com/css?family=Allura&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </head>
 
@@ -34,21 +38,83 @@
     <main>
 
         <!-- Sekcja z podmenu przystawek -->
-        <h2>Menu</h2>
         <section class="menu-list">
-            <h3>Przystawki</h3>
-            <ol>
-                <li>Deska serów</li>
-                <li>Deska frutti Di Mare</li>
-                <li>Deska mięs</li>
-                <li>Carpaccio</li>
-                <li>Krewetki Black Tiger</li>
-                <li>Ośmiornica</li>
-                <li>Befsztyk tatarki</li>
-                <li>Panierowane pierścienie z kalmarów</li>
-                <li>Panierowane paluszki z piersi kurczaka</li>
-            </ol>
-            <button class="call-waiter-btn"></button>
+            <div class="menu-list-container container">
+                <h3>Przystawki</h3>
+                <div class="dish-details">
+                    <h4>
+                        <span class="dish-name">Deska serów regionalnych</span>
+                        <span class="price">95 zł</span>
+                    </h4>
+                    <p class="ingredients"></p>
+                    <p class="allergens">(alergeny: mleko, orzechy)</p>
+                </div>
+                <div class="dish-details">
+                    <h4>
+                        <span class="dish-name">Deska frutti di mare</span>
+                        <span class="price">115 zł</span>
+                    </h4>
+                    <p class="ingredients">kalmary, szaszłyk z kurczaka i krewetek, stek z kalmara, ośmiornica z kindziukiem, tatar z łososia, masło, pieczywo</p>
+                    <p class="allergens">(alergeny: orzechy, skorupiaki, ryby)</p>
+                </div>
+                <div class="dish-details">
+                    <h4>
+                        <span class="dish-name">Deska mięs</span>
+                        <span class="price">95 zł</span>
+                    </h4>
+                    <p class="ingredients">marynowany rostbef, tatar z polędwicy wołowej, kacze rillettes, Parfait z wątróbki z konfiturą z czerwonej cebuli</p>
+                    <p class="allergens">(alergeny: mleko)</p>
+                </div>
+                <div class="dish-details">
+                    <h4>
+                        <span class="dish-name">Carpaccio 100 g/280g</span>
+                        <span class="price">42 zł</span>
+                    </h4>
+                    <p class="ingredients">polędwica wołowa, rukola, tapenada z oliwek i kaparów, Grana Padano, pieczywo i cytryna</p>
+                    <p class="allergens">(alergeny: mleko)</p>
+                </div>
+                <div class="dish-details">
+                    <h4>
+                        <span class="dish-name">Krewetki Black Tiger</span>
+                        <span class="price">42 zł</span>
+                    </h4>
+                    <p class="ingredients">czosnek, chili, pieczone krewetki, kulki krabowe, rukola</p>
+                    <p class="allergens">(alergeny: mleko, skorupiaki)</p>
+                </div>
+                <div class="dish-details">
+                    <h4>
+                        <span class="dish-name">Ośmiornica</span>
+                        <span class="price">42 zł</span>
+                    </h4>
+                    <p class="ingredients">kindziuk, kurki, morskie szparagi</p>
+                    <p class="allergens">(alergeny: ryby, mleko)</p>
+                </div>
+                <div class="dish-details">
+                    <h4>
+                        <span class="dish-name">Befsztyk tatarski</span>
+                        <span class="price">46 zł</span>
+                    </h4>
+                    <p class="ingredients">polędwica wołowa, kapary, cebula, ogórek konserwowy, suszone pomidory, żółtko, sos bazyliowo-pietruszkowy, pieczywo</p>
+                    <p class="allergens">(alergeny: jajka, orzechy)</p>
+                </div>
+                <div class="dish-details">
+                    <h4>
+                        <span class="dish-name">Panierowane pierścienie kalmarów</span>
+                        <span class="price">22 zł</span>
+                    </h4>
+                    <p class="ingredients">sos tatarski</p>
+                    <p class="allergens">(alergeny: jajka, ryby)</p>
+                </div>
+                <div class="dish-details">
+                    <h4>
+                        <span class="dish-name">Panierowane paluszki z piersi kurczaka</span>
+                        <span class="price">20 zł</span>
+                    </h4>
+                    <p class="ingredients">sos diabelski, sos dijon</p>
+                    <p class="allergens">(alergeny: jajka)</p>
+                </div>
+                <!-- <button class="call-waiter-btn"></button> -->
+            </div>
         </section>
         <!-- END: Sekcja z podmenu przystawek -->
 

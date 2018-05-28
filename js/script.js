@@ -1,4 +1,4 @@
-$(document).ready(function(){
-    var wow = new WOW();
-    wow.init();
-});
+// $(document).ready(function(){
+//     var wow = new WOW();
+//     wow.init();
+// });
